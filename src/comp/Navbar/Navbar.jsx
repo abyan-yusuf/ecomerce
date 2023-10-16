@@ -46,7 +46,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Start Shopping</a>
+        <Link className="btn btn-primary" to={'/products'}>Start Shopping</Link>
       </div>
     </div>
   );
